@@ -1,22 +1,50 @@
-# Converty Money
+#Converty Money
 
-Projeto simples de conversor de moedas desenvolvido com
-HTML, CSS e JavaScript puro.
+Converty Money é um projeto de conversor de moedas desenvolvido com HTML, CSS e JavaScript puro (Vanilla JS).
+A aplicação permite converter valores entre diferentes moedas, utilizando cotações em tempo real e uma interface simples e responsiva.
 
-## Funcionalidades
+##Funcionalidades
 
-- Conversão de Real para Dólar e Euro
-- Atualização dinâmica de valores
-- Formatação monetária com Intl.NumberFormat
-- Interface responsiva
+Conversão de qualquer moeda para qualquer moeda:
 
-## Tecnologias
+Real (BRL)
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+Dólar (USD)
 
-## Objetivo
+Euro (EUR)
 
-Projeto criado para praticar manipulação do DOM,
-eventos e lógica em JavaScript.
+Libra (GBP)
+
+Bitcoin (BTC)
+
+##Integração com API de câmbio em tempo real
+
+Moedas fiat (USD, EUR, GBP)
+
+Cotação real do Bitcoin
+
+Atualização dinâmica dos valores ao alterar moedas ou valor
+
+Formatação monetária correta usando Intl.NumberFormat
+
+Atualização automática de nome e ícone das moedas
+
+Interface responsiva e amigável
+
+##Tecnologias Utilizadas
+
+HTML5 — estrutura da aplicação
+
+CSS3 — estilização e layout responsivo
+
+JavaScript (Vanilla JS) — lógica de conversão, DOM e consumo de API
+
+APIs Utilizadas:
+
+ExchangeRate.host — cotações de moedas fiat (base BRL)
+
+CoinGecko API — cotação do Bitcoin em tempo real
+
+Status do Projeto
+
+✅ Concluído
